@@ -1,13 +1,14 @@
 # Calculator
 
-This is a simple calculator web application built using TypeScript.
-Features
+This is a simple calculator web application built using TypeScript and Parcel-bundler.
+
+## Features
 
     - Basic arithmetic operations (addition, subtraction, multiplication, division)
     - Clear button to reset the calculation
     - Equal button to compute the result
 
-##Usage
+## Usage
 
 To use the calculator, simply click on the buttons to input the numbers and operations you want to perform. The current calculation will be displayed on the screen, and you can clear it at any time by clicking the "C" button. Once you're ready to compute the result, click the "=" button, and the answer will be displayed on the screen.
 
