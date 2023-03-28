@@ -1,0 +1,16 @@
+{
+  "name": "fe22-js2-mp4-ignacio-cerda",
+  "version": "1.0.0",
+  "description": "", 
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.2"
+  }
+}
