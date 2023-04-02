@@ -6,10 +6,7 @@ const imgContainer: HTMLDivElement | null = document.querySelector('#img-contain
 const img: HTMLImageElement | null = document.createElement('img');
 imgContainer?.append(img);
 
-const moduleURL: string = import.meta.url; 
-const relativeURL: string = './media/calculator.jpg';
-
-const imgURL = new URL(relativeURL, moduleURL);
+const imgURL = new URL('../media/calculator.jpg', import.meta.url);
 
 img !== null ? img.src = imgURL.href : null;
 
